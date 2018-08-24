@@ -197,7 +197,7 @@ section {
 //footer styling
 
 .footer-container {
-	height:107px;
+	height:77px;
 }
 
 .footer-logo {
@@ -219,6 +219,7 @@ ul {
 	list-style-type:none;
 	padding:0;
 	text-align:right;
+	width:540px;
 	
 }
 
@@ -229,6 +230,11 @@ li {
 	font-size:14px;
 	letter-spacing:0.2px;
 	padding-left:2%;
+}
+
+ul .footer-link:hover {
+	color:grey;
+	@extend .hover;
 }
 
 
