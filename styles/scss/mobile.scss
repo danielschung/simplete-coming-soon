@@ -74,6 +74,19 @@
 
 @media only screen and (max-width:340px) {
 	
+	.main-text-container h1 {
+		font-size:50px;
+		letter-spacing:2.8px;
+		margin-top:27px;
+	}
+
+	.main-text-container h2 {
+		font-size:21px;
+		letter-spacing:0;
+		line-height:32px;
+		margin-top:24px
+	}
+
 	.box h2 {
 		font-size:23px;
 		letter-spacing:0.8px;
