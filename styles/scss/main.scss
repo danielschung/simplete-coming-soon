@@ -11,10 +11,16 @@ $black:#2D3136;
 $purple:#662E93;
 
 // global //
+
+html {
+	font-size:12px;
+}
+
 html, body, header {
 	margin:0;
 	padding:0;
 	font-family:$font-1;
+	overflow-x:hidden;
 }
 
 .inner-wrapper {
@@ -186,12 +192,20 @@ section {
 	text-align:center;
 }
 
-.simplete-memorial {
+img.simplete-memorial {
 	position:relative;
 	top:50%;
 	transform:translateY(-50%);
 	width:400px;
 
+}
+
+img.memorial {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	display:none;
+	width:190px;
 }
 
 //footer styling
@@ -205,7 +219,7 @@ section {
 	position:relative;
 	top:50%;
 	transform:translateY(-50%);
-	width:192px;
+	max-width:192px;
 }
 
 .footer-nav-container {
@@ -219,13 +233,12 @@ ul {
 	list-style-type:none;
 	padding:0;
 	text-align:right;
-	width:540px;
-	
+	max-width:540px;
 }
 
 li {
 	color:#674FA1;
-	display:inline-block;
+	display:inline;
 	font-family:$font-2;
 	font-size:14px;
 	letter-spacing:0.2px;
@@ -235,6 +248,10 @@ li {
 ul .footer-link:hover {
 	color:grey;
 	@extend .hover;
+}
+
+a {
+	text-decoration:none;
 }
 
 
